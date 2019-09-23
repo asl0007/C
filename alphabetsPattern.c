@@ -1,4 +1,6 @@
 /* C program which prints alphabetical pattern forming a triangle like this:
+INPUT:  For N==5
+Output
 
 A
 bc
