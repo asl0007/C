@@ -37,11 +37,11 @@ int main()
     // printf("%d %d\n ",sumodd,evensum);    
     diff = sumodd - evensum;
     printf("%d\n",diff);
-    // if(diff%11 == 0)
-    // {
-    //     printf("The number %d is divisible by 11 \n",num);
-    // }else{
-    //     printf("The number %d is not divisible by 11 \n",num);        
-    // }
+     if(diff%11 == 0)
+     {
+         printf("The number %d is divisible by 11 \n",num);
+     }else{
+         printf("The number %d is not divisible by 11 \n",num);        
+     }
     return 0;
 }
