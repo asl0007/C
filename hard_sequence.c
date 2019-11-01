@@ -10,8 +10,9 @@ int main() {
         int arr[128], n, k, i, j;
         int count=1;
         scanf("%d ",&n);
-        arr[0]=0;
-        arr[1]=0;
+        arr[0]=0;//first element
+        arr[1]=0;//second element
+	    //next n element
         for(i=2;i<n;i++){
             k=i-1;
             for(j=i-2;j>=0;j--){
@@ -24,6 +25,7 @@ int main() {
                 }
             }
         }
+	    //count occurence
         for(i=0;i<n-1;i++){
             if(arr[i]==arr[n-1]){
                 count++;
