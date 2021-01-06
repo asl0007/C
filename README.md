@@ -1,15 +1,5 @@
-# C
-Programming language
+# C Programming language
 
-##Problem Statement
-Given a number N that signifies the number of rows, write a function to print a tiangle of alphabets where the case of the alphabets changes for every row. The function should loop through the alphabets so A will come after Z. For example, if N is 5 then output would be:
-``
-`A`
-`bc`
-`DEF` 
-`ghij`
-`KLMNO`
-``
 #### Problem link - Hello World
 https://www.hackerrank.com/challenges/30-hello-world/problem
 ##### Solution
