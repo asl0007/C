@@ -154,3 +154,26 @@ https://www.hackerrank.com/challenges/30-conditional-statements/problem
         return 0;
     }
 ``````````````````
+
+#### Problem link - Loops
+https://www.hackerrank.com/challenges/30-loops/problem
+##### Solution
+`````````
+#include <math.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <limits.h>
+#include <stdbool.h>
+
+int main(){
+   int n; 
+scanf("%d",&n);
+   for(int i=1;i<=10;i++)
+   {if(n>=2&&n<=20)
+      printf("%d x %d = %d\n",n,i,n*i);
+   }
+    return 0;
+}
+`````````
