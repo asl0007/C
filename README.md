@@ -177,3 +177,35 @@ scanf("%d",&n);
     return 0;
 }
 `````````
+
+#### Problem link- Review Loop
+https://www.hackerrank.com/challenges/30-review-loop/problem
+##### Solution
+'''''''''
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int t,i,n;
+    char s[10000];
+    scanf("%d",&t);
+    while(t--){
+        scanf("%s",s);
+        n=strlen(s);
+        for(i=0;i<n;i++){
+            if(i%2==0)
+                printf("%c",s[i]);
+        }
+        printf(" ");
+        for(i=0;i<n;i++){
+            if(i%2!=0)
+                printf("%c",s[i]);
+        }   
+        printf("\n");
+    }
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+'''''''''
