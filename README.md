@@ -209,3 +209,23 @@ int main() {
     return 0;
 }
 ``````````
+
+#### Problem link - Array
+https://www.hackerrank.com/challenges/30-arrays/problem
+##### Solution
+`````````````
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    int N,i;
+    scanf("%d",&N);
+    int A[10000];
+    for(i=0;i<N;i++){
+        scanf("%d",&A[i]);
+    }
+    for(i=N-1;i>=0;i--){
+        printf("%d ",A[i]);
+    }
+}
+`````````````
