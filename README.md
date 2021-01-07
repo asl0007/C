@@ -181,7 +181,7 @@ scanf("%d",&n);
 #### Problem link- Review Loop
 https://www.hackerrank.com/challenges/30-review-loop/problem
 ##### Solution
-'''''''''
+``````````
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -208,4 +208,4 @@ int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
     return 0;
 }
-'''''''''
+``````````
